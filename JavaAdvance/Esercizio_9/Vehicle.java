@@ -1,7 +1,5 @@
 package Esercizio_9;
 
-import junit.framework.Protectable;
-
 public abstract class Vehicle {
 
     protected String tipo;
