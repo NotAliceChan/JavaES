@@ -1,9 +1,11 @@
 package Esercizio_6;
+
+
 import junit.framework.Assert;
 import junit.framework.TestCase;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class MathMethod {
+public class MathTest {
 
 
         @Test
@@ -12,7 +14,8 @@ public class MathMethod {
             TestCase.assertEquals(String.valueOf(4), result, "Il risultato è corretto");
         }
 
-        @Test
+
+    @Test
         void maxValueSubtraction () {
             int result = Testing.subtraction(2147483647, Integer.MAX_VALUE);
             Assert.assertEquals(String.valueOf(1), result, "non superare il valore 2147483647 e il valore -2147483648 ");
